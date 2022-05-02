@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Prb.ClassesAndObjects.Core;
+using Pra.ClassesAndObjects.Core;
 
-namespace Prb.ClassesAndObjects.Wpf
+namespace Pra.ClassesAndObjects.Wpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,6 +22,7 @@ namespace Prb.ClassesAndObjects.Wpf
     public partial class MainWindow : Window
     {
         List<Car> cars;
+
         public MainWindow()
         {
             InitializeComponent();
