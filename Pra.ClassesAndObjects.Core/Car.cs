@@ -13,6 +13,9 @@ namespace Pra.ClassesAndObjects.Core
         public string Brand { get; set; }
         public string Color { get; set; }
         public decimal Price { get; set; }
+
+        public CarType CarType { get; set; }
+
         public int TopSpeed
         {
             get { return topSpeed; }
@@ -23,6 +26,11 @@ namespace Pra.ClassesAndObjects.Core
                 else
                     topSpeed = value;
             }
+        }
+
+        public override string ToString()
+        {
+            return $"{Brand} - {CarType}";
         }
 
     }
